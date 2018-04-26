@@ -1,0 +1,69 @@
+.newTask_taskList-buttonGroup{
+    text-align: right;
+}
+.newTask_taskList-PopupContain {
+    margin: 15px;
+    max-height: 600px;
+}
+
+.newTask_taskList-PopupTitle {
+    display: block;
+    height: 38px;
+    line-height: 38px;
+    text-align: left;
+    padding: 0px 0px 0px 5px;
+}
+
+.newTask_taskList-buttonSubmit {
+    text-align: center;
+    margin: 15px;
+}
+
+.newTask_taskList-SearchData {
+    margin: 0px 0px 0px 15px ;
+}
+.newTask_taskList-PopupGroupCheckbox{
+    display: inline-block;
+    margin: 5px 0px 5px 0px;
+}
+.newTask_taskList-PopupGroupRadio{
+    display: inline-block;
+    margin: 5px 0px 5px 0px;
+}
+.newTask_taskList-doubleRow{
+    width: 205px;
+    float: left;
+    margin: 0px 10px 0px 10px 
+}
+.newTask_taskList-singleRow{
+    width: 430px;
+    margin: 0px 10px 0px 10px 
+}
+.newTask_taskList_ssuedTask{
+    display: inline-block;
+    margin: 15px 0px 15px 0px;
+}
+.newTask_taskList-singleRowState{
+    clear: both;
+    width: 430px;
+    margin: 0px 10px 0px 10px 
+}
+
+
+
+
+
+
+.selectGroupLeader_container{
+    margin:20px;
+}
+.addinformation-Layui-label{
+    padding: 10px;
+}
+.addinformation-Layui-input{
+    width:75%;
+}
+.addinformation-moveBtnPosition{
+    margin: 0 auto;
+    text-align: center;
+}

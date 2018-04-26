@@ -1,0 +1,1 @@
+layui.define(["qRouter","config_constant"],function(o){var t=layui.qRouter;var e=layui.config_constant;var n={LogOut:function(o){var t=$("#root");t.empty();var n="";$.ajax({type:"get",url:e.URL_HEADER+"/sys/user/logout",success:function(o){if(o.code==0){location.href=e.URL}else{layer.alert("退出失败")}},error:function(o){}})}};o("LogOut",n)});

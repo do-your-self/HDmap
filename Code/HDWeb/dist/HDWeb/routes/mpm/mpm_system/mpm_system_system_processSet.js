@@ -1,0 +1,1 @@
+layui.define(["header","navigation","body","systemProcessSetting","panelCrumbs"],function(e){var s=function(e){layui.header.header(e);layui.body.body(e);layui.navigation.navigation(e);layui.panelCrumbs.panelCrumbs(e);layui.systemProcessSetting.systemProcessSetting(e)};e("mpm_system_system_processSet",s)});

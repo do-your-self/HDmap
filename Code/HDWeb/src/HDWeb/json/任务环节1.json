@@ -1,0 +1,22 @@
+{
+    "data": [{
+            "id": 1,
+            "value": "制作",
+            "des": null
+        },
+        {
+            "id": 2,
+            "value": "质检",
+            "des": null
+        },
+        {
+            "id": 3,
+            "value": "修改",
+            "des": null
+        }
+    ],
+    "message": "ok",
+    "code": 0,
+    "count": null,
+    "token": null
+}

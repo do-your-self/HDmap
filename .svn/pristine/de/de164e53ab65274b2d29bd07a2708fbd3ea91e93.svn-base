@@ -1,0 +1,1 @@
+layui.define(["header","nonavigationBody","panelCrumbs","taskBasicInformation","editorTaskTableList"],function(a){var i=function(a){layui.header.header(a);layui.nonavigationBody.nonavigationBody(a);layui.panelCrumbs.panelCrumbs(a);layui.taskBasicInformation.taskBasicInformation(a);layui.editorTaskTableList.editorTaskTableList(a)};a("mpm_task_editingGroupLeader_taskList",i)});

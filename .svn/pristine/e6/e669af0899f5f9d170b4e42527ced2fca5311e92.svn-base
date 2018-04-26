@@ -1,0 +1,37 @@
+/**
+ * Copyright ©2018 DATAOJO. All Rights Reserved. 北京相数科技有限公司 版权所有
+ * Created Date: 2018.01.08
+ * Author: 付国强
+ * instructions:采集员采集需求管理配置文件
+ */
+layui.define(['config_constant'], function (exports) {
+    var config_constant = layui.config_constant;
+    var obj = {
+        title: '采集管理',
+        name: 'TaskManagementNav',
+        containt: [{
+            title: '采集管理',
+            name: 'userManagement',
+            href: 'javascript:void(0);',
+            children: [{
+                    title: '采集员采集需求管理',
+                    name: 'TaskManagement',
+                    href: config_constant.HREF_HEADER + "PostProcessingManagementNav/PostProcessingManagementNav",
+                    routesName: 'mpm_processing_processing',
+                    body: [{
+                        title: '采集员采集需求管理',
+                        components: [
+                            {
+                                name: 'systemProcess'
+                            },
+                        ]
+                    }, ]
+                },
+
+
+            ]
+        }, ]
+    }
+
+    exports('mpm_config_collectionAndManagement_theCollectorCollectsDemandManagement', obj);
+});

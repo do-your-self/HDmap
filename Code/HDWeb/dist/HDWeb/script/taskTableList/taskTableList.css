@@ -1,0 +1,290 @@
+.layui-body{overflow-y: scroll;}
+.taskTableList{
+    width: 100%;
+    overflow-x: auto;    
+}
+.taskTableList thead tr th,.taskTableList tbody tr td{
+    text-align: center;
+}
+.taskTableList_button{
+    text-align: right;
+}
+.taskTableList_Statistics{
+    width: 100%;
+    border-top: 1px solid #ededed;
+    text-align: right;
+    margin-top: 70px;
+    overflow-x: auto;
+}
+.taskTableList .layui-table th{
+    white-space: nowrap;
+}
+.taskTableList .layui-table td{    
+    position: relative;
+    white-space: nowrap;
+}
+.taskTableList .layui-table td .taskTableList_qualified{    
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-bottom: 15px solid green; 
+    border-left: 15px solid transparent;     
+}
+.taskTableList .layui-table td .taskTableList_unqualified{    
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-bottom: 15px solid red; 
+    border-left: 15px solid transparent;     
+}
+.taskTableList_Statistics span{
+    display: inline-block;
+    width: 14%;
+    text-align: left;
+    padding-top: 10px;
+    
+}
+.taskTableList_Statistics .taskTableList_overallEfficiency{
+    float: left;
+}
+.taskTableList_Statistics_table{
+    border: 1px solid #e4e4e4;
+}
+.taskTableList_Statistics .layui-table thead tr{
+    background: none;
+}
+.taskTableList_Statistics .layui-table thead tr th{
+    text-align: center; 
+    white-space: nowrap;
+}
+
+.taskTableList_Statistics .layui-table tbody tr:hover{
+    background: none;
+    color: #666666;
+}
+.taskTableList_Statistics .layui-table tbody tr td{
+    text-align: center;
+    white-space: nowrap;
+}
+.taskTableList_Statistics .layui-table tbody tr td span{
+    display: inline-block;
+    text-align: left;
+    width:190px;
+    padding-left: 0;
+}
+
+
+.taskTableList_pop{
+    width: 364px;
+    margin: 0 auto;    
+    padding-bottom: 13px;
+    max-height: 450px;
+}
+.taskTableList_pop p{
+    margin: 10px auto;
+    text-align: right;
+    width: 100%;
+}
+.taskTableList_pop p b{
+    float: left;
+    color: #6b6b6b;
+    line-height: 30px;
+    font-size: 16px;
+}
+.taskTableList_pop p .taskTableList_pop_b{
+    float: left;
+    color: #6b6b6b;
+    line-height: 30px;
+    font-size: 16px;
+    width: 100%;
+    text-align: left;
+}
+.taskTableList_pop p span{
+    display: inline-block;
+    line-height: 26px;
+    padding: 0 10px;
+    border: 1px solid #cccccc;   
+    color: #666;
+    font-size: 13px;
+    margin-top: 2px;
+
+}
+.taskTableList_pop p .taskTableList_pop_qualified{
+    border-radius: 3px 0 0 3px;    
+    border-right: 0;
+    cursor: default;
+}
+.taskTableList_pop p .taskTableList_pop_qualified:hover{
+    background: green;
+    color: #fff;
+    cursor: default;
+}
+.taskTableList_pop p .taskTableList_pop_green{
+    background: green;
+    color: #fff;
+    cursor: default;
+}
+.taskTableList_pop p .taskTableList_pop_unqualified{
+    border-radius: 0 3px 3px 0;    
+    border-left: 0;
+    cursor: default;
+}
+.taskTableList_pop p .taskTableList_pop_unqualified:hover{
+    background: red;
+    color: #fff;
+    cursor: default;
+}
+.taskTableList_pop p .taskTableList_pop_red{
+    background: red;
+    color: #fff;
+}
+.taskTableList_pop_item{
+    padding-bottom: 27px;
+    overflow: hidden;
+}
+.taskTableList_pop_itemName div{
+    width: 31.6%;
+    line-height: 30px;
+    color: #6b6b6b;
+    float: left;
+    margin-right: 2.5%;
+}
+.taskTableList_pop_itemName div div{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    position: relative;
+    border: 1px solid #cccccc;
+    box-sizing: border-box;
+}
+.taskTableList_pop_itemName div div span{
+    padding-left: 5px;
+}
+.taskTableList_pop_itemName div:last-child{
+    margin-right: 0;
+}
+.taskTableList_pop_itemName div select{
+    width: 100%;
+    display: block;
+    height: 30px;
+}
+.taskTableList_pop_itemName div input{
+    width: 100%;
+    display: block;
+    height: 30px;
+    box-sizing: border-box;
+    border: 1px solid #cccccc;
+    padding-left: 5px;
+}
+
+.taskTableList_pop_itemName_editor div{
+    width: 48.5%;
+    line-height: 30px;
+    color: #6b6b6b;
+    float: left;
+    margin-right: 3%;
+}
+.taskTableList_pop_itemName_editor div div{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    position: relative;
+    border: 1px solid #cccccc;
+    box-sizing: border-box;
+}
+.taskTableList_pop_itemName_editor div div span{
+    padding-left: 5px;
+}
+.taskTableList_pop_itemName_editor div:last-child{
+    margin-right: 0;
+}
+.taskTableList_pop_itemName_editor div select{
+    width: 100%;
+    display: block;
+    height: 30px;
+}
+.taskTableList_pop_itemName_editor div input{
+    width: 100%;
+    display: block;
+    height: 30px;
+    box-sizing: border-box;
+    border: 1px solid #cccccc;
+    padding-left: 5px;
+}
+
+.taskTableList_pop_button{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.taskTableList_pop_button button{
+    padding: 0 23px;
+} 
+
+.addinformation-Layui-input{
+    width: 74.4%;
+}
+.addinformation-moveBtn{
+    margin-left: 38%;
+}
+.taskTableList_submitPop{
+    width: 100%;
+    min-height: 300px;
+}
+.taskTableList_submitPop_contain{
+    width: 362px;
+    margin: 0 auto;
+    position: relative;
+    min-height: 240px;
+    padding-bottom: 60px;
+}
+.taskTableList_submitPop_contain p{
+    padding-top: 16px;
+    color: #b6b6b6;
+    font-size: 14px;
+}
+.taskTableList_submitPop_contain .layui-input-block{
+    width: 100%;
+    margin: 7px 0 0 0;
+}
+.taskTableList_submitPop_contain select{
+    width: 100%;
+    height: 30px;
+    box-sizing: border-box;
+    border: 1px solid #b6b6b6;
+    color: #666;
+    padding-left: 8px;
+  
+    /*很关键：将默认的select选择框样式清除*/
+    appearance:none;
+    -moz-appearance:none;
+    -webkit-appearance:none;
+  
+    /*在选择框的最右侧中间显示小箭头图片*/
+    background: url(../../../img/icon/arrow_bottom.png) no-repeat scroll 340px center transparent;
+  
+    /*为下拉小箭头留出一点位置，避免被文字覆盖*/
+    padding-right: 14px;
+}
+  
+  
+  /*清除ie的默认选择框样式清除，隐藏下拉箭头*/
+.taskTableList_submitPop_contain select::-ms-expand { display: none; }
+
+.taskTableList_submitPop_button{
+    text-align: center;
+    position: absolute;
+    bottom: 14px;
+    width: 100%;
+}
+.taskTableList_submitPop_button button{
+    padding: 0 23px;
+} 
+.taskTableList_hide{
+    display: none;
+}

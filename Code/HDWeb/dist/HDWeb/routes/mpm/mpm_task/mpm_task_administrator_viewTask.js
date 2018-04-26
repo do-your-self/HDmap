@@ -1,0 +1,1 @@
+layui.define(["header","nonavigationBody","panelCrumbs","tableList","basicInformation","viewTask"],function(a){var i=function(a){layui.header.header(a);layui.nonavigationBody.nonavigationBody(a);layui.panelCrumbs.panelCrumbs(a);layui.basicInformation.basicInformation(a);layui.viewTask.viewTask(a)};a("mpm_task_administrator_viewTask",i)});

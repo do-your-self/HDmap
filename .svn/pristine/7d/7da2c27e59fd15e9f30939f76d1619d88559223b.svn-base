@@ -1,0 +1,33 @@
+{
+    "data": [
+        {
+            "id": 2,
+            "value": "车道线",
+            "des": null
+        },
+        {
+            "id": 3,
+            "value": "栅栏",
+            "des": null
+        },
+        {
+            "id": 4,
+            "value": "路牙",
+            "des": null
+        },
+        {
+            "id": 5,
+            "value": "地标",
+            "des": null
+        },
+        {
+            "id": 6,
+            "value": "其他",
+            "des": null
+        }
+    ],
+    "message": "ok",
+    "code": 0,
+    "count": null,
+    "token": null
+}

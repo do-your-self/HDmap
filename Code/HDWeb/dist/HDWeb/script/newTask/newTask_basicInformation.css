@@ -1,0 +1,84 @@
+.newTask_basicInformation-contain {
+    padding: 0px;
+}
+
+.newTask_basicInformation-selectGroup {
+    width: 320px;
+    float: left;
+}
+
+.newTask_basicInformation-buttonGroup {
+    width: 170px;
+    text-align: center;
+    float: left;
+}
+
+.newTask_basicInformation-inputGroup {
+    width: 300px;
+    float: left;
+}
+
+.newTask_basicInformation-noteGroup {
+    clear: both;
+    width: 100%;
+    text-align: left;
+    padding: 15px 0px 0px 15px
+}
+
+.newTask_basicInformation-modifyGroup {
+    clear: both;
+    width: 100%;
+    text-align: center;
+    padding: 45px 0px 0px 0px
+}
+
+.newTask_basicInformation-inline-block {
+    display: inline-block;
+}
+
+.newTask_basicInformation-title {
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    padding: 0px 15px 0px 15px
+}
+
+.newTask_basicInformation-width {
+    width: 515px;
+}
+
+
+.newTask_basicInformation-moveBtn {
+    margin: 0px auto;
+    text-align: center;
+}
+
+.newTask_basicInformation-Layui-label {
+    padding: 10px;
+}
+
+.newTask_basicInformation-Layui-input {
+    width: 74%;
+}
+
+.newTask_basicInformation-moveBtnPosition {
+    margin: 10px auto;
+    text-align: center;
+    margin-top:20px;
+}
+.newTask_basicInformation_tabs{
+    margin: 10px 10px 0px 10px;
+}
+.newTask_basicInformation-contain_taskNmber{
+    width: 265px;
+    float: left;
+}
+.newTask_basicInformation-delMoveBtn{
+    margin: 20px auto;
+    text-align: center;
+}
+.newTask_basicInformation_taskAndDeletecontainer{
+    margin: 10px 10px 10px 10px;
+}
+
+

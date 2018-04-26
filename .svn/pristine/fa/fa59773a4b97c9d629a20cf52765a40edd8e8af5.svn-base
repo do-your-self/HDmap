@@ -1,0 +1,1 @@
+layui.define(["ptlogin2Validation"],function(i){var n=function(i){var n="ptlogin2_page";layui.ptlogin2Validation.ptlogin2Validation(n)};i("ptlogin2_page",n)});

@@ -1,0 +1,32 @@
+.addinformation-list{
+  line-height: 38px;
+    text-align: left;
+    color: black;
+    margin-top: 20px;
+}
+.addinformation-list-content{
+    padding-right: 25px;
+}
+.addinformation-list-img-size{
+    max-height: 140px;
+    max-width: 140px;
+}
+.addinformation-photo{
+    margin-left: 100px;
+}
+body .layui-layer-taskSkin .layui-layer-title{background:#2384d8; color:#fff; border: none;}
+body .layui-layer-taskSkin .layui-layer-btn{border-top:1px solid #E9E7E7}
+body .layui-layer-taskSkin .layui-layer-btn .layui-layer-btn1{background:#999;}
+
+.addinformation-container{
+    margin:20px;
+}
+.selectGroupLeader_moveBtn{
+    margin-left: 30%;
+}
+.selectGroupLeader_label{
+    padding: 10px;
+}
+.selectGroupLeader_input{
+    width:75%;
+}

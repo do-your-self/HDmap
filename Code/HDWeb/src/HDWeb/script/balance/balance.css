@@ -1,0 +1,99 @@
+.balance_currentCycle{
+    width: 100%;
+    text-align: right;
+}
+.balance_setcycle{
+    margin-left: 30px;
+}
+.balance_tab{
+    background: #f2f2f2;
+}
+
+/* 设置本月周期弹窗 */
+.setcyclePop{
+    width: 94%;
+    margin: 20px auto;
+}
+.setcyclePop p{
+    line-height: 50px;
+}
+.setcyclePop_btn{
+    text-align: right;
+    margin-top: 50px;
+}
+.balance_screen{
+    position: relative;
+    height: 50px;
+}
+.balance_isAlLData{
+    position: absolute;
+    width: 15.6%;
+    left: 0;
+}
+.balance_screenSet{
+    position: absolute;
+    right: 0;
+    width: 84.5%;
+    text-align: right;
+}
+.once_balanceSearchInput, .two_balanceSearchInput, .detail_balanceSearchInput{
+    width: 20%;
+    display: inline-block;
+    margin-left: 15px;
+}
+.once_balanceSearch, .two_balanceSearch, .detail_balanceSearch{
+    display: inline-block;
+    margin-left: 15px;
+}
+.balance_SearchByDate{
+    display: none;
+    padding-right: 55px;
+}
+.balance_issue{
+    width: 50%;
+}
+.balance_issue select{
+    width: 30%;
+}
+.balance_search{
+    position: absolute;
+    right: 0;
+    width: 50%;
+    text-align: right;
+}
+.balance_year{
+    position: absolute;
+    width: 115px;
+    left: 107px;
+}
+.balance_month{
+    position: absolute;
+    width: 115px;
+    left: 237px;
+}
+.withdraw_balance{
+    position: absolute;
+    top: 0;
+    left: 369px;
+}
+.choose_issue{
+    position: absolute;
+    left: 0;
+    line-height: 38px;
+}
+.detail_balanceSearchInput{
+    width: 35%;
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.balance_StatisticsTables .layui-table tr:nth-child(1), 
+.balance_StatisticsTables .layui-table tr:nth-child(2), 
+.balance_StatisticsTables .layui-table tr:nth-child(3){
+    background-color: #f2f2f2;
+}
+.balance_StatisticsTables .layui-table tr:nth-child(1):hover, 
+.balance_StatisticsTables .layui-table tr:nth-child(2):hover, 
+.balance_StatisticsTables .layui-table tr:nth-child(3):hover{
+    color: #666;
+}

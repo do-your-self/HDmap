@@ -1,0 +1,76 @@
+.layui-body{overflow-y: scroll;}
+.tableList-button{
+    width: 100px;
+    float: right;
+    padding: 0px;
+}
+.tableList_btnsize{
+    height: 23px;
+    line-height: 23px;
+    box-sizing: border-box;
+    padding: 0 5px;
+    background: none;
+    border: 1px solid #999;
+    color: #666666;
+}
+.tableList_green{
+    background: #22ad3a;
+    border: none;
+    color: #fff;
+}
+.tableList_disabled{
+    background: #bebebe;
+    border: none;
+    color: #fff;
+}
+.layui-table tbody tr:hover , .layui-table-click{
+    background: #1e9fff;
+    color: #fff;        
+}
+.layui-table tbody tr:hover a, .layui-table-click a{
+    color: #fff;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+}
+.layui-table tbody tr:hover .tableList_green, 
+.layui-table tbody tr:hover .tableList_disabled,
+.layui-table-click .tableList_green,
+.layui-table-click .tableList_disabled{
+    border: none;
+}
+.layui-fluid {
+    position: relative;
+    margin: 0 auto;
+    padding: 0 15px;
+    width: 100%;
+}
+.layui-row{
+    margin: 0;
+    padding: 0;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    width: 100%;
+}
+.layui-laypage .layui-laypage-curr .layui-laypage-em {
+    position: absolute;
+    left: -1px;
+    top: -1px;
+    padding: 1px;
+    width: 100%;
+    height: 100%;
+    background-color: #1e9fff;
+}
+
+.tableList-position{
+    margin-bottom: 15px;
+}
+.tableList-search-position{
+    margin-left: 20px;
+    float:left;
+}
+.tableList-Layui-label{
+    padding: 10px;
+}
+.tableList-moveBtnPosition{
+    margin: 0 auto;
+    text-align: center;
+}

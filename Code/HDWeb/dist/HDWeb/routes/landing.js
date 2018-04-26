@@ -1,0 +1,1 @@
+layui.define(["landfall","ptlogin2"],function(n){var i=function(n){var i="landing";layui.ptlogin2.ptlogin2(i)};n("landing",i)});

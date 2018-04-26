@@ -1,0 +1,26 @@
+@charset 'utf-8';
+.layui-nav-itemed .layui-nav-child {
+    display: block;
+    padding: 0;
+    background-color: #2384d8 !important;
+}
+.layui-nav-tree .layui-nav-item a:hover {
+    background-color: #1871bd;
+}
+.layui-nav {
+    position: relative;
+    padding: 0 0px;
+    background-color: #2384d800;
+    color: #fff;
+    border-radius: 2px;
+    font-size: 0;
+    box-sizing: border-box;
+}
+.layui-bg-blue .layui-nav-itemed>a {
+    background-color: #1871bd !important;
+}
+.layui-nav-itemed .layui-nav-child {
+    display: block;
+    padding: 0;
+    background-color: #2c88de !important;
+}

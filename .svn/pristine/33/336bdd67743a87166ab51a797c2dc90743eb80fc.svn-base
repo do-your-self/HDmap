@@ -1,0 +1,310 @@
+.systemProcessSetting{
+    width: 100%;
+}
+.systemProcessSetting_btn{
+    margin-top: 10px;
+    width: 100%;
+    text-align: right;
+}
+.systemProcessSetting_btn .systemProcessSetting_search{
+    margin-right: 20px;
+    margin-left: 15px;
+}
+.systemProcessSetting_btn input{
+    display: inline-block;
+    width: 182px;
+    margin-left: 30px;
+    height: 40px;
+}
+.systemProcessSetting_contain{
+    width: 100%;    
+    margin-top: 10px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #eaeaea;
+}
+.systemProcessSetting_contain li{
+    box-sizing: border-box;
+    border-top: 1px solid #eaeaea;
+    border-left: 1px solid #eaeaea;
+    position: relative;
+}
+.systemProcessSetting_contain li:first-child{
+    background: #f2f2f2;
+    box-sizing: border-box;
+}
+.systemProcessSetting_contain li ul{
+    display: none;
+    background: #fff;
+    color: #666;
+}
+.systemProcessSetting_contain li ul li:first-child{
+    background: none;
+}
+.systemProcessSetting_contain li ul li{
+    box-sizing: border-box;
+    border-left: none;
+}
+.systemProcessSetting_contain li ul li:hover{
+    background: #fff;
+    color: #666;  
+}
+.systemProcessSetting_contain div{
+    display: inline-block;
+    width: auto;
+    text-align: center;
+    box-sizing: border-box;
+    border-right: 1px solid #eaeaea;
+    line-height: 40px;
+    height: 40px;
+    font-size: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-bottom: -6px;
+    padding: 0 15px;
+}
+.systemProcessSetting_contain li:hover{
+    background: #1e9fff;
+    color: #666;    
+}
+.systemProcessSetting_click{
+    color: #fff;    
+}
+/* 后处理设置 */
+.systemProcessSetting_contain div:first-child{
+    width: 5%;
+    padding: 0;
+}
+.systemProcessSetting_contain div:nth-child(2){
+    width: 21%;
+    text-align: left;
+    padding-left: 15px;
+}
+.systemProcessSetting_contain li ul li div:nth-child(2){
+    padding-left: 50px;
+}
+.systemProcessSetting_contain li ul li div:nth-child(2) i{
+    padding-right: 10px;
+}
+.systemProcessSetting_contain div:nth-child(2) i{
+    display: inline-block;
+    vertical-align: middle;
+}
+.systemProcessSetting_contain div:nth-child(2) i.layui_icon_second{
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 10px;
+    padding-left: 8px; 
+}
+.systemProcessSetting_contain div:nth-child(2) .systemProcessSetting_arrow{
+    transform:rotate(90deg);
+    -ms-transform:rotate(90deg); 	/* IE 9 */
+    -moz-transform:rotate(90deg); 	/* Firefox */
+    -webkit-transform:rotate(90deg); /* Safari 和 Chrome */
+    -o-transform:rotate(90deg); 	/* Opera */
+}
+.systemProcessSetting_contain div:nth-child(3){
+    width: 20%;
+}
+.systemProcessSetting_contain div:nth-child(4){
+    width: 15%;
+}
+.systemProcessSetting_contain div:nth-child(5){
+    width: 15%;
+}
+.systemProcessSetting_contain div:nth-child(6){
+    width: 24%;    
+}
+.systemProcessSetting_contain div:nth-child(6) p{
+    position: absolute;    
+    right: 0;
+    top: 0;
+    max-width: 100%;
+    min-width: 21.7%;
+    text-align: center;
+    background: #fbfbfb;
+    display: none;
+    padding: 0 15px;
+}
+.systemProcessSetting_contain div:nth-child(6):hover p{
+    display: block;
+}
+
+/* 后处理 */
+.systemProcess_contain{
+    overflow-x: auto;
+}
+/* .systemProcess_pop .systemProcessSetting_pop_contain p{
+    margin-top: 30px;
+} */
+.systemProcess_btn{
+    margin-top: 10px;
+    text-align: right;
+    box-sizing: border-box;
+}
+.systemProcess_btn .systemProcessSetting_search{
+    margin-right: 20px;
+    margin-left: 15px;
+}
+.systemProcess_btn input{
+    display: inline-block;
+    width: 182px;
+    margin-left: 30px;
+    height: 40px;
+}
+.systemProcess_contain div:first-child{
+    width: 4%;
+    padding: 0;
+}
+.systemProcess_contain div:nth-child(2){
+    width: 17%;
+}
+.systemProcess_contain div:nth-child(2) i{
+    display: inline-block;
+    vertical-align: middle;
+}
+.systemProcess_contain div:nth-child(2) .systemProcessSetting_arrow{
+    transform:rotate(90deg);
+    -ms-transform:rotate(90deg); 	/* IE 9 */
+    -moz-transform:rotate(90deg); 	/* Firefox */
+    -webkit-transform:rotate(90deg); /* Safari 和 Chrome */
+    -o-transform:rotate(90deg); 	/* Opera */
+}
+.systemProcess_contain div:nth-child(3){
+    width: 19%;
+}
+.systemProcess_contain div:nth-child(4){
+    width: 15%;
+}
+.systemProcess_contain div:nth-child(5){
+    width: 13%;
+}
+.systemProcess_contain div:nth-child(6){
+    width: 20%;
+}
+.systemProcess_contain div:nth-child(6) p{
+    position: absolute;    
+    right: 12%;
+    top: 0;
+    max-width: 100%;
+    min-width: 18%;
+    text-align: center;
+    background: #fbfbfb;
+    display: none;
+    padding: 0 15px;
+}
+.systemProcess_contain div:nth-child(6):hover p{
+    display: block;
+}
+.systemProcess_contain div:nth-child(7){
+    width: 12%;
+}
+/* 新增流程弹窗样式 */
+.systemProcessSetting_pop_contain{
+    width: 93%;
+    margin: 0 auto;
+    font-size: 16px;
+    color: #666;    
+    margin-top: 30px;
+}
+.systemProcessSetting_pop_contain p{
+    width: 100%;
+    margin-top: 15px;
+}
+.systemProcessSetting_pop_contain p span{
+    width: 18%;
+    line-height: 30px;
+}
+.systemProcessSetting_pop_contain p input{
+    display: inline-block;
+    width: 75%;
+    line-height: 30px;
+    box-sizing: border-box;
+    border: 1px solid #eaeaea;
+    padding-left: 8px;
+}
+
+.choose_link{
+    width: 100%;
+    margin-top: 15px;
+}
+.choose_link p{
+    width: 100%;    
+    position: relative;
+}
+.choose_link p i{
+    position: absolute;
+    right: 0;
+}
+.choose_link div{
+    float: left;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.choose_link_left, .choose_link_right{
+    width: 41%;
+    height: 200px;
+    overflow-y: auto;
+    border: 1px solid #eaeaea;
+    box-sizing: border-box;
+}
+.choose_link_left p,.choose_link_right div{
+    width: 100%;
+    font-size: 14px;
+    line-height: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.choose_link_right div span{
+    padding-left: 15px;
+}
+.choose_link_left p:hover, .choose_link_right div:hover{
+    background: #f2f2f2;
+}
+.choose_link_right_click{
+    background: #f2f2f2;
+}
+.choose_link_left p input{
+    width: 30px;
+    height: 14px;
+    vertical-align: middle;
+}
+
+.choose_link_center{
+    width: 18%;
+    height: 200px;
+    text-align: center;
+}
+.choose_link_center .layui-btn+.layui-btn{
+    margin-left: 10%;
+}
+.choose_link_center button{
+    display: block;
+    width: 80%;
+    margin: 85px auto 0;
+    line-height: 30px;
+    box-sizing: border-box;
+}
+.systemProcessSetting_pop_button{
+    text-align: center;
+    margin-bottom: 15px;
+}
+.systemProcess_pop_button{
+    margin-top: 5%;
+    /* margin-bottom: 50px; */
+}
+.systemProcessSetting_pop_button button{
+    padding: 0 25px;
+}
+.systemProcessSetting_pop_contain .layui-form-select{
+    width: 75%;
+    display: inline-block;
+}
+.systemProcessSetting_pop_contain .layui-anim-upbit{
+    height: 149px;
+    overflow-y: auto;
+}
+.systemProcessSetting_pop_contain .layui-form-select input{
+    width: 100%;
+}
+

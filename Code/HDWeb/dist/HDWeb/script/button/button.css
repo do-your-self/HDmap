@@ -1,0 +1,40 @@
+.button-contain {
+    height: 38px;
+    margin: 10px 0px 0px 0px;
+}
+
+.button-flow {
+    height: 38px;
+    padding-right: 15px;
+    float: right;
+}
+
+.button-PopupContain {
+    margin: 15px;
+    max-height: 600px;
+}
+
+.button-PopupTitle {
+    display: block;
+    height: 38px;
+    line-height: 38px;
+    text-align: left;
+    padding: 0px 0px 0px 5px;
+}
+
+.button-buttonSubmit {
+    text-align: center;
+    margin: 15px;
+}
+
+.button-SearchData {
+    margin: 0px 0px 0px 15px ;
+}
+.button-PopupGroupCheckbox{
+    display: inline-block;
+    margin: 5px 0px 5px 0px;
+}
+.button-PopupGroupRadio{
+    display: inline-block;
+    margin: 5px 0px 5px 0px;
+}

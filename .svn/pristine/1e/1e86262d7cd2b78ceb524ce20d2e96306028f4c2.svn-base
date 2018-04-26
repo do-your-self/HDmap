@@ -1,0 +1,1 @@
+layui.define(["header","nonavigationBody","panelCrumbs","messageStatistics"],function(a){var i=function(a){layui.header.header(a);layui.nonavigationBody.nonavigationBody(a);layui.panelCrumbs.panelCrumbs(a);layui.messageStatistics.messageStatistics(a)};a("mpm_task_administrator_messageStatistics",i)});

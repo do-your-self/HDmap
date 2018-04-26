@@ -1,0 +1,23 @@
+{
+    "data": {
+        "production_projects": "车道线",
+        "step_value": "修改",
+        "batch_id":"B-209",
+        "status_value": "未下发",
+        "task_id": "1001-1-018-170510",
+        "step_id": 3,
+        "type_value": "高速",
+        "pre_manday": "10.09302",
+        "department_value": "B点",
+        "finish_date": "2018-01-21",
+        "name": "苏萌",
+        "id": 260,
+        "launch_date": "2018-01-22",
+        "mileage": 434.0,
+        "status": 1
+    },
+    "message": "ok",
+    "code": 0,
+    "count": null,
+    "token": null
+}

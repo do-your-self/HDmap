@@ -1,0 +1,16 @@
+/**
+ * Copyright ©2018 DATAOJO. All Rights Reserved. 北京相数科技有限公司 版权所有
+ * Created Date: 2018.01.08
+ * Author: 付国强
+ * instructions:高精度地图在线生产管理平台系统管理后处理管理 流程设置配置文件
+ */
+layui.define(['header','navigation','body','systemProcessSetting','panelCrumbs'], function (exports) {
+    var obj = function (componentName) {
+      layui.header.header(componentName);
+      layui.body.body(componentName);
+      layui.navigation.navigation(componentName);
+      layui.panelCrumbs.panelCrumbs(componentName);
+      layui.systemProcessSetting.systemProcessSetting(componentName);
+    }
+    exports('mpm_system_system_processSet', obj);
+  });

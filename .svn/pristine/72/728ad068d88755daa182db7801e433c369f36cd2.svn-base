@@ -1,0 +1,59 @@
+{
+    "data": [{
+        "id": 1,
+        "value": "城区",
+        "des": null
+    }, {
+        "id": 2,
+        "value": "高速",
+        "des": null
+    }, {
+        "id": 3,
+        "value": "城快",
+        "des": "null1"
+    }, {
+        "id": 17,
+        "value": "11",
+        "des": null
+    }, {
+        "id": 18,
+        "value": "11",
+        "des": null
+    }, {
+        "id": 19,
+        "value": "ds",
+        "des": null
+    }, {
+        "id": 20,
+        "value": "ds",
+        "des": null
+    }, {
+        "id": 21,
+        "value": "fd",
+        "des": null
+    }, {
+        "id": 24,
+        "value": "份额发发",
+        "des": null
+    }, {
+        "id": 25,
+        "value": "北京",
+        "des": "测试"
+    }, {
+        "id": 26,
+        "value": "f fsgs g",
+        "des": "g sg s"
+    }, {
+        "id": 27,
+        "value": "fdf",
+        "des": "fdfdf"
+    }, {
+        "id": 28,
+        "value": "y fgayg yag",
+        "des": "g sg ag aga"
+    }],
+    "message": "ok",
+    "code": 0,
+    "count": null,
+    "token": null
+}

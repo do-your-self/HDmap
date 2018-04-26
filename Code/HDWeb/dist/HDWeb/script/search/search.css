@@ -1,0 +1,60 @@
+.search-contain {
+    height: 38px;
+}
+
+.search-flow {
+ float: right;
+ padding:0px 15px 0px 0px ;
+}
+.search-new-left{
+    float: left;
+    padding:0px 0px 0px 15px ;
+}
+
+.search-select{
+    float: left;
+}
+
+.search-selectBodyInput{
+    width: 150px;
+    float: left;
+}
+.search-selectBodyLine{
+    height: 38px;
+    width: 80px;
+    line-height: 38px;
+    text-align: center;
+    float: left;
+}
+.search-selectTitle{
+    height: 38px;
+    width: 100px;
+    line-height: 38px;
+    text-align: center;
+    float: left;
+}
+.search-search{
+    padding: 0px 25px 0px 25px;
+}
+
+
+
+.search-selectTitle{
+    height: 38px;
+    width: 80px;
+    line-height: 38px;
+    text-align: center;
+    float: left;
+}
+.search-selectBody{
+    width: 100px;
+    float: left;
+}
+.search-select{
+    float: left;
+}
+
+.search-contain{
+    height: 38px;
+    padding-bottom: 10px;
+}

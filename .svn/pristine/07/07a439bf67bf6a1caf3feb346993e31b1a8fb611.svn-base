@@ -1,0 +1,1 @@
+layui.define(["config_constant"],function(n){var a=layui.config_constant;var i=[];n("mpm_config_message_message",i)});

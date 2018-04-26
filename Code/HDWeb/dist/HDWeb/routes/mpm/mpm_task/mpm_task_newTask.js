@@ -1,0 +1,1 @@
+layui.define(["header","nonavigationBody","panelCrumbs","newTask_basicInformation","newTask_taskList"],function(a){var n=function(a){layui.header.header(a);layui.nonavigationBody.nonavigationBody(a);layui.panelCrumbs.panelCrumbs(a);layui.newTask_basicInformation.newTask_basicInformation(a);layui.newTask_taskList.newTask_taskList(a)};a("mpm_task_newTask",n)});

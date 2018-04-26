@@ -1,0 +1,9 @@
+@charset 'utf-8';
+.panelCrumbs-breadCrumbs-position{
+    height: 42px;
+}
+.panelCrumbs-breadCrumbs{
+    position: relative;
+    top: 11px;
+    left: 15px;
+}

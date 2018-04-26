@@ -1,0 +1,17 @@
+.basicInformation-list{
+    overflow: hidden;
+    line-height: 42px;
+    text-align: left;
+    color: black;
+}
+.basicInformation-list-img{
+    height: 126px;
+    line-height: 126px;
+    text-align: left;
+    color: black;
+}
+.basicInformation-list-img-size{
+    max-height: 126px;
+    max-width: 335px;
+}
+

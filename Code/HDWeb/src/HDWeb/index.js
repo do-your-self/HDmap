@@ -1,0 +1,298 @@
+//主动加载jquery模块
+layui.use(['layer', 'qRouter', 'landing', 'mpm_message_message',
+	'mpm_system_system_userManagement',
+	'mpm_system_system_taskType',
+	'mpm_system_system_makeMaintenance',
+	'mpm_system_system_taskStatusMaintenance',
+	'mpm_system_system_unitmaintenance',
+	'mpm_system_system_linkSet',
+	'mpm_system_system_processSet',
+	'mpm_system_system_pathSettings',
+	'mpm_system_system_collectPlatform',
+
+	'mpm_task_administrator_taskManagement',
+	'mpm_task_administrator_balance',
+	'mpm_task_administrator_messageStatistics',
+	'mpm_task_editingGroupLeader_taskLoading',
+	'mpm_task_editingGroupLeader_taskCompleted',
+	'mpm_task_editingGroupLeader_taskList',
+	'mpm_task_editor_taskLoading',
+	'mpm_task_editor_taskCompleted',
+	'mpm_task_qcLead_taskLoading',
+	'mpm_task_qcLead_taskCompleted',
+	'mpm_task_qcLead_taskList',
+	'mpm_task_inspector_taskLoading',
+	'mpm_task_inspector_taskCompleted',
+	'mpm_personnel_editingGroupLeader',
+	'mpm_task_administrator_additionalTasks',
+	'mpm_task_administrator_viewTask',
+	'mpm_personnel_editor',
+	'mpm_task_newTask',
+	'mpm_exit_logOut',
+	'ptlogin2_page',
+	'mpm_task_qcLead_viewTaskList',
+	'mpm_task_editingGroupLeader_viewTaskList',
+	"mpm_collectionAndManagement_collectionManagerCollectionRequirementsManagement",
+	"mpm_collectionAndManagement_theCollectorCollectsDemandManagement",
+	"mpm_collectionAndManagement_acquisitionProgramManagement",
+	"mpm_collectionAndManagement_collectionManagerCollectionPlanManagement",
+	"mpm_collectionAndManagement_administratorCollectionTrackLibraryManagement",
+	"mpm_postProcessingManagementNav_administratorPostProcessingProcessManagement",
+	"mpm_postProcessingManagementNav_collectionAdministratorPostProcessingTrackManagement",
+	"mpm_task_internalManagerTaskCompleteProcessStateManagement",
+	"mpm_task_internalManagementProblemRecordAndFeedback",
+	"mpm_task_noInternalManagementProblemRecordAndFeedback",
+	"mpm_system_system_cityCodeManagement",
+	"mpm_system_system_licensePlateManagement",
+	"mpm_system_system_productionItemAndTaskTypeAndeEfficiencyManagement"
+
+
+], function () {
+	var qRouter = layui.qRouter;
+
+	var componentName = "";
+	//加载权限管理
+	qRouter.reg('landing', function () {
+		// 登陆
+		componentName = 'landing';
+		layui.landing(componentName);
+	});
+	qRouter.reg('ptlogin2_page', function () {
+		// 登陆验证页面
+		componentName = 'ptlogin2_page';
+		layui.ptlogin2_page(componentName);
+	});
+	qRouter.reg('TheMessageNav', function () {
+		// 消息
+		componentName = 'mpm_message_message';
+		layui.mpm_message_message(componentName);
+	});
+	qRouter.reg('LogOut', function () {
+		// 退出登录
+		componentName = 'mpm_exit_logOut';
+		layui.mpm_exit_logOut(componentName);
+	});
+	qRouter.reg('CollectionAndManagement', function (parameter1, parameter2) {
+		// 采集管理
+		if (parameter1 == 'CollectionManagerCollectionRequirementsManagement' && parameter2 == undefined) {
+			//采集管理员采集需求管理
+			componentName = 'mpm_collectionAndManagement_collectionManagerCollectionRequirementsManagement';
+			layui.mpm_collectionAndManagement_collectionManagerCollectionRequirementsManagement(componentName);
+		} else if (parameter1 == 'TheCollectorCollectsDemandManagement' && parameter2 == undefined) {
+			//采集员采集需求管理
+			componentName = 'mpm_collectionAndManagement_theCollectorCollectsDemandManagement';
+			layui.mpm_collectionAndManagement_theCollectorCollectsDemandManagement(componentName);
+		} else if (parameter1 == 'AcquisitionProgramManagement' && parameter2 == undefined) {
+			//采集管理员采集计划管理
+			componentName = 'mpm_collectionAndManagement_acquisitionProgramManagement';
+			layui.mpm_collectionAndManagement_acquisitionProgramManagement(componentName);
+		} else if (parameter1 == 'CollectionManagerCollectionPlanManagement' && parameter2 == undefined) {
+			//采集员采集计划管理
+			componentName = 'mpm_collectionAndManagement_collectionManagerCollectionPlanManagement';
+			layui.mpm_collectionAndManagement_collectionManagerCollectionPlanManagement(componentName);
+		} else if (parameter1 == 'AdministratorCollectionTrackLibraryManagement' && parameter2 == undefined) {
+			//管理员采集轨迹库管理
+			componentName = 'mpm_collectionAndManagement_administratorCollectionTrackLibraryManagement';
+			layui.mpm_collectionAndManagement_administratorCollectionTrackLibraryManagement(componentName);
+		}
+	});
+	qRouter.reg('PostProcessingManagementNav', function (parameter1, parameter2) {
+		// 后处理管理
+		if (parameter1 == 'AdministratorPostProcessingProcessManagement' && parameter2 == undefined) {
+			//后处理流程管理
+			componentName = 'mpm_postProcessingManagementNav_administratorPostProcessingProcessManagement';
+			layui.mpm_postProcessingManagementNav_administratorPostProcessingProcessManagement(componentName);
+		} else if (parameter1 == 'CollectionAdministratorPostProcessingTrackManagement' && parameter2 == undefined) {
+			//后处理轨迹管理
+			componentName = 'mpm_postProcessingManagementNav_collectionAdministratorPostProcessingTrackManagement';
+			layui.mpm_postProcessingManagementNav_collectionAdministratorPostProcessingTrackManagement(componentName);
+		}
+	});
+	qRouter.reg('SystemManagementNav', function (parameter1, parameter2) {
+		// 系统管理
+		if (parameter1 == 'userManagement' && parameter2 == undefined) {
+			//用户管理
+			componentName = 'mpm_system_system_userManagement';
+			layui.mpm_system_system_userManagement(componentName);
+		} else if (parameter1 == 'dictionaryManagement' && parameter2 == 'taskType') {
+			//任务类型维护
+			componentName = 'mpm_system_system_taskType';
+			layui.mpm_system_system_taskType(componentName);
+		} else if (parameter1 == 'dictionaryManagement' && parameter2 == 'makeMaintenance') {
+			//制作项维护
+			componentName = 'mpm_system_system_makeMaintenance';
+			layui.mpm_system_system_makeMaintenance(componentName);
+		} else if (parameter1 == 'dictionaryManagement' && parameter2 == 'taskstatusmaintenance') {
+			//任务状态维护
+			componentName = 'mpm_system_system_taskStatusMaintenance';
+			layui.mpm_system_system_taskStatusMaintenance(componentName);
+		} else if (parameter1 == 'dictionaryManagement' && parameter2 == 'unitmaintenance') {
+			//单位维护
+			componentName = 'mpm_system_system_unitmaintenance';
+			layui.mpm_system_system_unitmaintenance(componentName);
+		} else if (parameter1 == 'dictionaryManagement' && parameter2 == 'cityCodeManagement') {
+			//城市代码管理
+			componentName = 'mpm_system_system_cityCodeManagement';
+			layui.mpm_system_system_cityCodeManagement(componentName);
+		} else if (parameter1 == 'dictionaryManagement' && parameter2 == 'licensePlateManagement') {
+			//车牌号管理
+			componentName = 'mpm_system_system_licensePlateManagement';
+			layui.mpm_system_system_licensePlateManagement(componentName);
+		} else if (parameter1 == 'dictionaryManagement' && parameter2 == 'productionItemAndTaskTypeAndeEfficiencyManagement') {
+			//制作项-任务类型-效率管理
+			componentName = 'mpm_system_system_productionItemAndTaskTypeAndeEfficiencyManagement';
+			layui.mpm_system_system_productionItemAndTaskTypeAndeEfficiencyManagement(componentName);
+		}
+
+
+
+		//后处理管理
+		else if (parameter1 == 'postProcessingLinkSetting' && parameter2 == 'linkSet') {
+			//后处理管理 环节设置
+			componentName = 'mpm_system_system_linkSet';
+			layui.mpm_system_system_linkSet(componentName);
+		} else if (parameter1 == 'postProcessingLinkSetting' && parameter2 == 'processSet') {
+			//后处理管理 流程设置
+			componentName = 'mpm_system_system_processSet';
+			layui.mpm_system_system_processSet(componentName);
+		} else if (parameter1 == 'postProcessingLinkSetting' && parameter2 == 'pathSettings') {
+			//后处理管理 路径设置
+			componentName = 'mpm_system_system_pathSettings';
+			layui.mpm_system_system_pathSettings(componentName);
+		}
+
+
+		//采集平台
+		else if (parameter1 == 'collectPlatform' && parameter2 == undefined) {
+			//采集平台接口设置
+			componentName = 'mpm_system_system_collectPlatform';
+			layui.mpm_system_system_collectPlatform(componentName);
+		} else {
+			layer.alert('传入参数不正确，请确认您访问的地址。');
+		}
+	});
+	// 任务管理
+	qRouter.reg('TaskManagementNav', function (parameter1, parameter2) {
+		if (parameter1 == 'AdministratorTaskManagement' && parameter2 == undefined) {
+			// 管理员任务管理
+			componentName = 'mpm_task_administrator_taskManagement';
+			layui.mpm_task_administrator_taskManagement(componentName);
+		} else if (parameter1 == 'AdministratorTaskManagement' && parameter2 == 'QualityInspectorTaskList') {
+			//管理员任务管理质检任务详情
+			componentName = 'mpm_task_qcLead_taskList';
+			layui.mpm_task_qcLead_taskList(componentName);
+		} else if (parameter1 == 'AdministratorTaskManagement' && parameter2 == 'OtherTaskList') {
+			//管理员任务管理非质检任务详情
+			componentName = 'mpm_task_editingGroupLeader_taskList';
+			layui.mpm_task_editingGroupLeader_taskList(componentName);
+		} else if (parameter1 == 'AdministratorTaskManagement' && parameter2 == 'ViewQualityInspectorTaskList') {
+			//管理员任务管理质检任务详情(仅查看)
+			componentName = 'mpm_task_qcLead_viewTaskList';
+			layui.mpm_task_qcLead_viewTaskList(componentName);
+		} else if (parameter1 == 'AdministratorTaskManagement' && parameter2 == 'ViewOtherTaskList') {
+			//管理员任务管理非质检任务详情(仅查看)
+			componentName = 'mpm_task_editingGroupLeader_viewTaskList';
+			layui.mpm_task_editingGroupLeader_viewTaskList(componentName);
+		} else if (parameter1 == 'AdministratorMessageStatistics' && parameter2 == undefined) {
+			//管理员统计信息
+			componentName = 'mpm_task_administrator_messageStatistics';
+			layui.mpm_task_administrator_messageStatistics(componentName);
+		} else if (parameter1 == 'AdministratorBalance' && parameter2 == undefined) {
+			//管理员结算信息
+			componentName = 'mpm_task_administrator_balance';
+			layui.mpm_task_administrator_balance(componentName);
+		} else if (parameter1 == 'EditingGroupLeaderTaskLoading' && parameter2 == undefined) {
+			//编辑组长进行中任务列表
+			componentName = 'mpm_task_editingGroupLeader_taskLoading';
+			layui.mpm_task_editingGroupLeader_taskLoading(componentName);
+		} else if (parameter1 == 'EditingGroupLeaderTaskCompleted' && parameter2 == undefined) {
+			//编辑组长已完成任务列表
+			componentName = 'mpm_task_editingGroupLeader_taskCompleted';
+			layui.mpm_task_editingGroupLeader_taskCompleted(componentName);
+		} else if (parameter1 == 'EditorTaskLoading' && parameter2 == undefined) {
+			//编辑员进行中任务列表
+			componentName = 'mpm_task_editor_taskLoading';
+			layui.mpm_task_editor_taskLoading(componentName);
+		} else if (parameter1 == 'EditorTaskCompleted' && parameter2 == undefined) {
+			//编辑员已完成任务列表
+			componentName = 'mpm_task_editor_taskCompleted';
+			layui.mpm_task_editor_taskCompleted(componentName);
+		} else if (parameter1 == 'QCLeadTaskLoading' && parameter2 == undefined) {
+			//质检组长进行中任务列表
+			componentName = 'mpm_task_qcLead_taskLoading';
+			layui.mpm_task_qcLead_taskLoading(componentName);
+		} else if (parameter1 == 'QCLeadTaskCompleted' && parameter2 == undefined) {
+			//质检组长已完成任务列表
+			componentName = 'mpm_task_qcLead_taskCompleted';
+			layui.mpm_task_qcLead_taskCompleted(componentName);
+		} else if (parameter1 == 'InspectorTaskLoading' && parameter2 == undefined) {
+			//质检员进行中任务列表
+			componentName = 'mpm_task_inspector_taskLoading';
+			layui.mpm_task_inspector_taskLoading(componentName);
+		} else if (parameter1 == 'InspectorTaskCompleted' && parameter2 == undefined) {
+			//质检员已完成任务列表
+			componentName = 'mpm_task_inspector_taskCompleted';
+			layui.mpm_task_inspector_taskCompleted(componentName);
+		} else if (parameter1 == 'AdministratorTaskManagement' && parameter2 == 'NewTask') {
+			//新建任务
+			componentName = 'mpm_task_newTask';
+			layui.mpm_task_newTask(componentName);
+		} else if (parameter1 == 'AdministratorTaskManagement' && parameter2 == 'AdditionalTasks') {
+			//管理员追加任务
+			componentName = 'mpm_task_administrator_additionalTasks';
+			layui.mpm_task_administrator_additionalTasks(componentName);
+		} else if (parameter1 == 'AdministratorTaskManagement' && parameter2 == 'ViewTask') {
+			//管理员查看任务
+			componentName = 'mpm_task_administrator_viewTask';
+			layui.mpm_task_administrator_viewTask(componentName);
+		} else if (parameter1 == 'InternalManagerTaskCompleteProcessStateManagement' && parameter2 == undefined) {
+			//内业管理员任务全流程状态管理
+			componentName = 'mpm_task_internalManagerTaskCompleteProcessStateManagement';
+			layui.mpm_task_internalManagerTaskCompleteProcessStateManagement(componentName);
+		} else if (parameter1 == 'InternalManagementProblemRecordAndFeedback' && parameter2 == undefined) {
+			//内业管理员问题记录与反馈
+			componentName = 'mpm_task_internalManagementProblemRecordAndFeedback';
+			layui.mpm_task_internalManagementProblemRecordAndFeedback(componentName);
+		} else if (parameter1 == 'NoInternalManagementProblemRecordAndFeedback' && parameter2 == undefined) {
+			//非内业管理员问题记录与反馈
+			componentName = 'mpm_task_noInternalManagementProblemRecordAndFeedback';
+			layui.mpm_task_noInternalManagementProblemRecordAndFeedback(componentName);
+		} else if (parameter1 == 'EditingGroupLeaderTaskLoading' ||
+			parameter1 == 'EditingGroupLeaderTaskCompleted' &&
+			parameter2 == 'EditingGroupLeaderTaskList') {
+			//编辑组长任务单
+			componentName = 'mpm_task_editingGroupLeader_taskList';
+			layui.mpm_task_editingGroupLeader_taskList(componentName);
+		} else if (parameter1 == 'QCLeadTaskCompleted' ||
+			parameter1 == 'QCLeadTaskLoading' &&
+			parameter2 == 'QCLeaderTaskList') {
+			//质检组长任务单
+			componentName = 'mpm_task_qcLead_taskList';
+			layui.mpm_task_qcLead_taskList(componentName);
+		} else {
+			layer.alert('传入参数不正确，请确认您访问的地址。');
+		}
+	});
+	// 人员
+	qRouter.reg('PersonnelNav', function (parameter1, parameter2) {
+		if (parameter1 == 'EditingGroupLeader' && parameter2 == undefined) {
+
+			// 编辑组长
+			componentName = 'mpm_personnel_editingGroupLeader';
+			layui.mpm_personnel_editingGroupLeader(componentName);
+		} else if (parameter1 == 'Editor' && parameter2 == undefined) {
+			//编辑员
+			componentName = 'mpm_personnel_editor';
+			layui.mpm_personnel_editor(componentName);
+		} else {
+			layer.alert('传入参数不正确，请确认您访问的地址。');
+		}
+	});
+	qRouter.init({
+		index: 'landing',
+		/* 首页地址 */
+		pop: refresh = function () { /* 每次有url变更时都会触发pop回调 */ }
+	});
+
+
+});

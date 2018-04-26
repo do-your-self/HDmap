@@ -1,0 +1,31 @@
+/**
+ * Copyright ©2018 DATAOJO. All Rights Reserved. 北京相数科技有限公司 版权所有
+ * Created Date: 2018.01.08
+ * Author: 付国强
+ * instructions:数据表格组件
+ */
+layui.link('./script/trackLibraryManagement/trackLibraryManagement.css')
+layui.define(['layer', 'element', 'form', 'table','config_constant'], function (exports) {
+    var layer = layui.layer;
+    var element = layui.element;
+    var form = layui.form;
+    var table = layui.table;
+    var config_constant = layui.config_constant;
+    var obj = {
+        trackLibraryManagement: function (componentName) {
+            var getRoot = $("[id^='render-trackLibraryManagement']");
+            getRoot.empty();
+            $.each(getRoot, function (key, listId) {
+                var nodeHtml = '';
+                var getNodeHtml = $('#' + listId.id);
+                var componentData = getNodeHtml.data('componentData');
+                nodeHtml += '<div>111111';
+                nodeHtml += '</div>';
+                getNodeHtml.append(nodeHtml);
+            })
+        },
+
+    }
+
+    exports('trackLibraryManagement', obj);
+});

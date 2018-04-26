@@ -1,0 +1,17 @@
+{
+    "data": [{
+            "id": 1,
+            "value": "是",
+            "des": null
+        },
+        {
+            "id": 2,
+            "value": "否",
+            "des": null
+        }
+    ],
+    "message": "ok",
+    "code": 0,
+    "count": null,
+    "token": null
+}

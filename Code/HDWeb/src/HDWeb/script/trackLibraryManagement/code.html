@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<title>高精度地图在线生产管理平台</title>
+</head>
+
+<body id="root">
+ <img src="../../img/header/administrator.png"/>
+ <img src="../../img/header/logo.png"/>
+ <img src="../../img/header/loginOut.png"/>
+ <img src="../../img/header/notAdministrator.png"/>
+</body>
+<script>
+	var images = document.getElementsByTagName("img");
+	for(var i=0;i<images.length;i++){
+		console.log(images[i])
+		var image=images[i];
+		if(image.addEventListener){
+			console.log("aa")
+		}
+	}
+</script>
+</html>

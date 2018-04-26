@@ -1,0 +1,14 @@
+.messageStatistics_input{
+    width: 182px;
+    display: inline-block;
+}
+.messageStatistics_margin{
+    margin: 0px 0px 0px 18px ;
+}
+.messageStatistics_position{
+    height: 38px;
+}
+.messageStatistics_rigth{
+    height: 38px;
+    float: right;
+}

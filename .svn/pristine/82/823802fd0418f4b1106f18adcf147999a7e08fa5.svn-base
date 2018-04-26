@@ -1,0 +1,42 @@
+.header-headerTitle1 {
+    height: 60px;
+    float: left;
+    padding: 0px 0px 0px 0px ;
+
+}
+
+.header-headerTitle2 {
+    height: 60px;
+    color: white;
+    font-size: 20px;
+    line-height: 60px;
+    float: left;
+    padding: 0px 0px 0px 100px ;
+}
+.header-headerTitle3{
+    height: 60px;
+    color: white;
+    font-size: 20px;
+    line-height: 60px;
+    position: relative;
+    left: -90px;
+}
+
+.header-header {
+    margin-left: 200px;
+}
+.header-icon{
+    width: 60px;
+    height: 60px;
+    position: relative;
+    left: -30px;
+}
+.layui-nav-img{
+    width: 40px;
+    height: 40px;
+}
+
+.layui-bg-blue {
+    background-color: #2384d8!important;
+    color: #fff!important;
+}

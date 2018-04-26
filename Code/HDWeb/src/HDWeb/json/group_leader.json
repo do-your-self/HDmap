@@ -1,0 +1,15 @@
+{
+    "data": [{
+        "id": 309,
+        "name": "苏萌",
+        "qq": "88888874",
+        "departmentId": null,
+        "roleId": null,
+        "hireDate": null,
+        "status": 1
+    }],
+    "message": "ok",
+    "code": 0,
+    "count": 1,
+    "token": null
+}

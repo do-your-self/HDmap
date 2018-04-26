@@ -1,0 +1,43 @@
+{
+    "data": [{
+            "name": "完成情况统计表",
+            "stateTime": "stateTime_completionStatisticalTables",
+            "endTime": "endTime_completionStatisticalTables",
+            "operation": "operation_completionStatisticalTables"
+        },
+        {
+            "name": "工效统计表",
+            "stateTime": "stateTime_statisticalTableWorkEffect",
+            "endTime": "endTime_statisticalTableWorkEffect",
+            "operation": "operation_statisticalTableWorkEffect"
+        },
+        {
+            "name": "月结算表",
+            "stateTime": "stateTime_monthlyStatements",
+            "endTime": "endTime_monthlyStatements",
+            "operation": "operation_monthlyStatements"
+        },
+        {
+            "name": "工时细分表",
+            "stateTime": "stateTime_timeBreakdownTable",
+            "endTime": "endTime_timeBreakdownTable",
+            "operation": "operation_timeBreakdownTable"
+        },
+        {
+            "name": "外包验收质量统计表",
+            "stateTime": "stateTime_statisticalTableOutsourcingAcceptanceQuality.",
+            "endTime": "endTime_statisticalTableOutsourcingAcceptanceQuality",
+            "operation": "operation_statisticalTableOutsourcingAcceptanceQuality"
+        },
+        {
+            "name": "结算总表",
+            "stateTime": "stateTime_totalTable",
+            "endTime": "endTime_totalTable",
+            "operation": "operation_totalTable"
+        }
+    ],
+    "message": "ok",
+    "code": 0,
+    "count": 8,
+    "token": null
+}
